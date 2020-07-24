@@ -6,7 +6,7 @@ For basic monophonic sounds, it works a little well, but will need to check for 
 
 Yes, it is just a concept to prove that the original patent equations work, they certainly need to be improved!
 
-OK `Python` makes me nervous when I percieve how slow the loops are, so I needed to vectorize to gain speed and skip some loops, maybe the equations are not so easy to see in the encoded file ...
+OK `Python` makes me nervous when I percieve how slow the loops are, so I needed to vectorize to gain speed and skip some loops, maybe the equations are not so easy to see in the coded file ...
 
 # FUN
 
