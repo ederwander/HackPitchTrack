@@ -14,8 +14,8 @@ def GetPitch(frame, maxP, minP):
     periodo = -1
     for pos in range(minP, maxP):
         nolag=frame[0:(maxP*2)-pos]
-        onelag=frame[(pos):(maxP*2)-pos+pos]
-        twolag=frame[np.round(np.arange(pos*2, ((maxP*2)-pos+(pos))*2, 2))]
+        onelag=frame[pos:maxP*2]
+        twolag=frame[np.round(np.arange(pos*2, (maxP*2)*2, 2))]
         H=np.sum((nolag * onelag)-(onelag * twolag))
         E=np.sum((nolag**2)-(twolag**2))
         V=E-(2.0*H)
