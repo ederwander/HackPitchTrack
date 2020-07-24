@@ -4,7 +4,7 @@ Therefore, I wrote this code as a proof of concept of the equations used in the 
 
 For basic monophonic sounds, it works a little well, but will need to check for errors with periods out of range (TO-DO)...
 
-Yes, it is just a concept to prove that the original patent equations work, it is an autocorrelation variant, they certainly need to be improved!
+Yes, it is just a concept to prove that the original patent equations work, it is an autocorrelation variant, they certainly need to be improved, but it is obvious there are many secrets not revealed in the patent lol
 
 OK, `Python` makes me nervous when I percieve how slow the loops are, so I needed to vectorize to gain speed and skip some loops, maybe the equations are not so easy to see in the coded file ...
 
