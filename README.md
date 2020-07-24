@@ -1,6 +1,6 @@
 # HackPitchTrack
 
-Therefore, this is a proof of concept of the equations used in the Pitch Track of the original patent `US5973252 - Pitch Detection and Intonation Correction Aparatus and Method`
+Therefore, I wrote this code as a proof of concept of the equations used in the Pitch Track of the original patent `US5973252 - Pitch Detection and Intonation Correction Aparatus and Method`
 
 For basic monophonic sounds, it works a little well, but will need to check for errors with periods out of range (TO-DO)...
 
