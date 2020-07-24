@@ -10,7 +10,7 @@ OK `Python` makes me nervous when I percieve how slow the loops are, so I needed
 
 # FUN
 
-This code is purely python, the demo is just for fun, you will get all Pitch and build sines, for now just use mono and monophonic sounds
+This code is purely python, the demo is just for fun, you will get all Pitch from one .wav file and build sines, for now just use mono and monophonic sounds inputs
 
 The only dependency on the example file is the use of `numpy` and  `pyaudio` to play
 
