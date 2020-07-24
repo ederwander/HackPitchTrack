@@ -10,7 +10,9 @@ OK `Python` makes me nervous when I percieve how slow the loops are, so I needed
 
 # FUN
 
-This code is purely python, the demo is just for fun, you will get all Pitch and build one sine, for now just use monophonic sounds
+This code is purely python, the demo is just for fun, you will get all Pitch and build sines, for now just use mono and monophonic sounds
 
 The only dependency on the example file is the use of `numpy` and  `pyaudio` to play
+
+Video that show its working https://youtu.be/fsPOWzNtaXQ, yeah you will see/listen that the Pitch Track fails some frequencies at the end lol, seems an old R2d2 ...
 
