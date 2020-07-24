@@ -40,14 +40,12 @@ def BuildSine(F, phase):
 
 spf = wave.open('teste.wav','r');
 
-
-# If Stereo
-if spf.getnchannels() == 2:
-    print("Just mono files")
-    sys.exit(0)
-
 Fs = spf.getframerate();
 signal = spf.readframes(-1);
+
+#if stereo lets get just one channel
+if spf.getnchannels() == 2:
+	signal=signal[::1]
 
 intsignal = np.frombuffer(signal, dtype=np.int16)
 floatsignal  = np.float32(intsignal) / (1<<15)
